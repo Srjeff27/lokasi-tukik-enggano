@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { X } from 'lucide-react';
+import { XMarkIcon } from '@heroicons/react/24/outline';
 
 interface KerambaInfoPanelProps {
   isOpen: boolean;
@@ -31,7 +31,7 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
           onClick={onClose}
           className="absolute top-3 right-3 z-10 bg-black/50 hover:bg-black/70 rounded-full p-2 transition-colors"
         >
-          <X className="w-5 h-5 text-white" />
+          <XMarkIcon className="w-5 h-5 text-white" />
         </button>
 
         {/* Content */}
@@ -48,7 +48,7 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
             Peta Lokasi Jaring Pembesaran Tukik di Bacbau
           </h2>
           <p className="text-center text-white/50 text-sm mb-6">
-            Struktur Keramba & Dimensi Jaring
+            Struktur Keramba · Dimensi 5m × 5m · 4 Sekat · Jaring 2m
           </p>
 
           {/* Main Layout: 3D Illustration + Info */}
@@ -268,39 +268,39 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
                   {/* Top edge: 10m */}
                   <line x1="200" y1="180" x2="400" y2="100" stroke="white" strokeWidth="1.2" markerStart="url(#dimArrowL)" markerEnd="url(#dimArrowR)" />
                   <rect x="270" y="126" width="52" height="20" rx="5" fill="rgba(0,0,0,0.65)" />
-                  <text x="296" y="140" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold" fontFamily="sans-serif">10 m</text>
+                  <text x="296" y="140" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold" fontFamily="sans-serif">5 m</text>
 
                   {/* Right edge: 10m */}
                   <line x1="410" y1="100" x2="510" y2="160" stroke="white" strokeWidth="1.2" markerStart="url(#dimArrowL)" markerEnd="url(#dimArrowR)" />
                   <rect x="435" y="116" width="52" height="20" rx="5" fill="rgba(0,0,0,0.65)" />
-                  <text x="461" y="130" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold" fontFamily="sans-serif">10 m</text>
+                  <text x="461" y="130" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold" fontFamily="sans-serif">5 m</text>
 
                   {/* Internal: 5m labels */}
                   {/* Top-left half */}
                   <rect x="222" y="152" width="38" height="16" rx="4" fill="rgba(0,0,0,0.55)" />
-                  <text x="241" y="164" textAnchor="middle" fill="rgba(255,255,255,0.85)" fontSize="10" fontWeight="bold" fontFamily="sans-serif">5 m</text>
+                  <text x="241" y="164" textAnchor="middle" fill="rgba(255,255,255,0.85)" fontSize="10" fontWeight="bold" fontFamily="sans-serif">2.5m</text>
 
                   {/* Top-right half */}
                   <rect x="340" y="118" width="38" height="16" rx="4" fill="rgba(0,0,0,0.55)" />
-                  <text x="359" y="130" textAnchor="middle" fill="rgba(255,255,255,0.85)" fontSize="10" fontWeight="bold" fontFamily="sans-serif">5 m</text>
+                  <text x="359" y="130" textAnchor="middle" fill="rgba(255,255,255,0.85)" fontSize="10" fontWeight="bold" fontFamily="sans-serif">2.5m</text>
 
                   {/* Left-top half */}
                   <rect x="204" y="202" width="38" height="16" rx="4" fill="rgba(0,0,0,0.55)" />
-                  <text x="223" y="214" textAnchor="middle" fill="rgba(255,255,255,0.85)" fontSize="10" fontWeight="bold" fontFamily="sans-serif">5 m</text>
+                  <text x="223" y="214" textAnchor="middle" fill="rgba(255,255,255,0.85)" fontSize="10" fontWeight="bold" fontFamily="sans-serif">2.5m</text>
 
                   {/* Front internal */}
                   <rect x="330" y="222" width="38" height="16" rx="4" fill="rgba(0,0,0,0.55)" />
-                  <text x="349" y="234" textAnchor="middle" fill="rgba(255,255,255,0.85)" fontSize="10" fontWeight="bold" fontFamily="sans-serif">5 m</text>
+                  <text x="349" y="234" textAnchor="middle" fill="rgba(255,255,255,0.85)" fontSize="10" fontWeight="bold" fontFamily="sans-serif">2.5m</text>
 
                   {/* Bottom: 10m */}
                   <line x1="305" y1="357" x2="505" y2="277" stroke="white" strokeWidth="1.2" markerStart="url(#dimArrowL)" markerEnd="url(#dimArrowR)" />
                   <rect x="378" y="303" width="52" height="20" rx="5" fill="rgba(0,0,0,0.65)" />
-                  <text x="404" y="317" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold" fontFamily="sans-serif">10 m</text>
+                  <text x="404" y="317" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold" fontFamily="sans-serif">5 m</text>
 
                   {/* Left: 10m */}
                   <line x1="188" y1="195" x2="288" y2="350" stroke="white" strokeWidth="1.2" markerStart="url(#dimArrowL)" markerEnd="url(#dimArrowR)" />
                   <rect x="210" y="262" width="52" height="20" rx="5" fill="rgba(0,0,0,0.65)" />
-                  <text x="236" y="276" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold" fontFamily="sans-serif">10 m</text>
+                  <text x="236" y="276" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold" fontFamily="sans-serif">5 m</text>
 
                   {/* ===== COMPONENT LABELS WITH LEADER LINES ===== */}
                   {/* Tiang Bambu label */}
@@ -355,10 +355,10 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
                   <circle cx="150" cy="452" r="2.5" fill="#facc15" />
 
                   {/* Mini dimension labels */}
-                  <text x="67" y="396" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="7" fontWeight="bold">5m</text>
-                  <text x="122" y="396" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="7" fontWeight="bold">5m</text>
-                  <text x="33" y="422" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="7" fontWeight="bold">5m</text>
-                  <text x="33" y="456" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="7" fontWeight="bold">5m</text>
+                  <text x="67" y="396" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="7" fontWeight="bold">2.5m</text>
+                  <text x="122" y="396" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="7" fontWeight="bold">2.5m</text>
+                  <text x="33" y="422" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="7" fontWeight="bold">2.5m</text>
+                  <text x="33" y="456" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="7" fontWeight="bold">2.5m</text>
                 </svg>
               </div>
             </div>
@@ -436,22 +436,32 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
                 <div className="space-y-2.5">
                   <div className="flex justify-between items-center">
                     <span className="text-white/50 text-xs">Panjang</span>
-                    <span className="text-emerald-400 font-bold text-sm">10 m</span>
+                    <span className="text-emerald-400 font-bold text-sm">5 m</span>
                   </div>
                   <div className="w-full h-px bg-white/8"></div>
                   <div className="flex justify-between items-center">
                     <span className="text-white/50 text-xs">Lebar</span>
-                    <span className="text-emerald-400 font-bold text-sm">10 m</span>
+                    <span className="text-emerald-400 font-bold text-sm">5 m</span>
                   </div>
                   <div className="w-full h-px bg-white/8"></div>
                   <div className="flex justify-between items-center">
                     <span className="text-white/50 text-xs">Sekat</span>
-                    <span className="text-emerald-400 font-bold text-sm">5 m × 5 m</span>
+                    <span className="text-emerald-400 font-bold text-sm">2.5m × 2.5m × 4</span>
                   </div>
                   <div className="w-full h-px bg-white/8"></div>
                   <div className="flex justify-between items-center">
-                    <span className="text-white/50 text-xs">Kolam</span>
-                    <span className="text-emerald-400 font-bold text-sm">4 Bagian</span>
+                    <span className="text-white/50 text-xs">Panjang Jaring</span>
+                    <span className="text-emerald-400 font-bold text-sm">2 m</span>
+                  </div>
+                  <div className="w-full h-px bg-white/8"></div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-white/50 text-xs">Terendam Air</span>
+                    <span className="text-emerald-400 font-bold text-sm">1.5 m</span>
+                  </div>
+                  <div className="w-full h-px bg-white/8"></div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-white/50 text-xs">Sisa di Atas</span>
+                    <span className="text-emerald-400 font-bold text-sm">0.5 m</span>
                   </div>
                 </div>
               </div>

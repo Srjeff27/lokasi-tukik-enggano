@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { X, Egg, ShieldCheck, Sun } from 'lucide-react';
+import { XMarkIcon, SunIcon, ShieldCheckIcon } from '@heroicons/react/24/outline';
 
 interface TempatPenetasanTelurInfoPanelProps {
   isOpen: boolean;
@@ -31,7 +31,7 @@ export default function TempatPenetasanTelurInfoPanel({ isOpen, onClose }: Tempa
           onClick={onClose}
           className="absolute top-4 right-4 z-10 bg-black/40 hover:bg-black/60 rounded-full p-2.5 transition-colors"
         >
-          <X className="w-5 h-5 text-white" />
+          <XMarkIcon className="w-5 h-5 text-white" />
         </button>
 
         {/* Content */}
@@ -43,7 +43,7 @@ export default function TempatPenetasanTelurInfoPanel({ isOpen, onClose }: Tempa
             </div>
             
             <div className="bg-amber-900/40 p-3 rounded-2xl border border-amber-300/30 mb-4 backdrop-blur-md">
-               <Sun className="w-8 h-8 text-amber-200" />
+               <SunIcon className="w-8 h-8 text-amber-200" />
             </div>
             
             <h2
@@ -254,7 +254,7 @@ export default function TempatPenetasanTelurInfoPanel({ isOpen, onClose }: Tempa
               >
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-2 bg-amber-500/20 rounded-lg">
-                    <Sun className="w-5 h-5 text-amber-300" />
+                    <SunIcon className="w-5 h-5 text-amber-300" />
                   </div>
                   <h3 className="text-white font-bold tracking-wide">Kondisi Inkubasi</h3>
                 </div>
@@ -286,7 +286,7 @@ export default function TempatPenetasanTelurInfoPanel({ isOpen, onClose }: Tempa
               >
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-2 bg-emerald-500/20 border border-emerald-500/30 rounded-lg">
-                    <ShieldCheck className="w-5 h-5 text-emerald-400" />
+                    <ShieldCheckIcon className="w-5 h-5 text-emerald-400" />
                   </div>
                   <h3 className="text-white font-bold tracking-wide">Upaya Pelestarian</h3>
                 </div>
@@ -313,7 +313,7 @@ export default function TempatPenetasanTelurInfoPanel({ isOpen, onClose }: Tempa
                 style={{ background: 'rgba(0,0,0,0.4)', border: '1px solid rgba(255,255,255,0.05)' }}
               >
                 <div className="flex items-center gap-3">
-                  <Egg className="w-5 h-5 text-amber-500 opacity-60" />
+                  <SunIcon className="w-5 h-5 text-amber-500 opacity-60" />
                   <div>
                     <p className="text-white/40 text-[10px] font-bold uppercase tracking-widest mb-0.5">Jenis Penyu</p>
                     <p className="text-amber-200 text-sm font-semibold">Penyu Hijau / Sisik</p>
