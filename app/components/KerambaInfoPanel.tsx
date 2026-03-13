@@ -175,7 +175,7 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
                 steps={[
                   "Tukik baru menetas dari bak penetasan",
                   "Dipantau pertumbuhan & kesehatan harian",
-                  "Diberi pakan alami (ubur-ubur kecil, cumi)",
+                  "Diberi pakan",
                   "Dilepas setelah cukup kuat (±3–6 bulan)",
                 ]}
               />
@@ -216,8 +216,6 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
                 description="Pemisahan sementara bagi penyu dewasa yang menunggu pelepasan atau penelitian lebih lanjut."
                 steps={[
                   "Ukuran sekat lebih tinggi (min. 2m dalam)",
-                  "Pemasangan tag/chip identifikasi",
-                  "Pengambilan sampel darah/DNA jika diperlukan",
                   "Pelepasan terkoordinasi dengan BKSDA",
                 ]}
               />

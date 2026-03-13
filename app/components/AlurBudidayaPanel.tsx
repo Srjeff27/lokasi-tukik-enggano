@@ -96,7 +96,7 @@ const steps = [
       "Ukuran target: 15-20 cm",
       "Harapan menaikan survival karna sudah siap menghadapi predator",
       "Pelepasan saat senja/malam di pantai desa Meok",
-      "Edukasi masyarakat & ekowisata",
+      "Edukasi masyarakat",
     ],
     color: "#3b82f6",
     gradient: "from-blue-500/10 to-indigo-500/10",
@@ -109,7 +109,7 @@ const steps = [
     title: "Penyu Kembali ke pantai untuk bertelur",
     subtitle: "Nesting Season",
     description:
-      "Penyu yang telah dilepasliarkan akan kembali ke pantai tempat mereka dilahirkan untuk bertelur. Oleh karena itu, sangat penting untuk menjaga keadaan dan kondisi pantai agar tetap layak untuk bertelur.",
+      "Penyu yang telah dilepasliarkan Mereka akan kembali ke pantai tempat mereka dilepaskan untuk bertelur. Oleh karena itu, sangat penting untuk menjaga keadaan dan kondisi pantai agar tetap layak untuk bertelur.",
     details: [
       "Penyu akan kembali ke pantai tempat mereka bertelur",
       "Untuk itu sangat diperlukan menjaga keadaan dan kondisi pantai baik untuk bertelur",

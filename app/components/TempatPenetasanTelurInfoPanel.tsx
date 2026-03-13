@@ -92,8 +92,8 @@ export default function TempatPenetasanTelurInfoPanel({ isOpen, onClose }: Tempa
                   {/* Protection Fence Label (Pagar Pelindung) */}
                   <g transform="translate(40, 220)">
                     <rect x="0" y="0" width="140" height="42" rx="8" fill="rgba(88, 28, 135, 0.85)" stroke="#fbbf24" strokeWidth="1.5" filter="url(#amberGlow)" />
-                    <text x="70" y="18" textAnchor="middle" fill="#fbbf24" fontSize="11" fontWeight="bold">Pagar Pelindung</text>
-                    <text x="70" y="32" textAnchor="middle" fill="white" fontSize="9">Aman dari predator darat</text>
+                    <text x="70" y="18" textAnchor="middle" fill="#fbbf24" fontSize="11" fontWeight="bold">Identifikasi dan Label</text>
+                    <text x="70" y="32" textAnchor="middle" fill="white" fontSize="9">Jenis Penyu (Hijau,SisiK)</text>
                   </g>
                   <line x1="150" y1="262" x2="220" y2="295" stroke="#fbbf24" strokeWidth="2" />
                   <circle cx="220" cy="295" r="4" fill="#f59e0b" filter="url(#amberGlow)" />
