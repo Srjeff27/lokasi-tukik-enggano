@@ -113,6 +113,8 @@ const steps = [
     details: [
       "Penyu akan kembali ke pantai tempat mereka bertelur",
       "Untuk itu sangat diperlukan menjaga keadaan dan kondisi pantai baik untuk bertelur",
+      "Dampak Cahaya pada Tukik: Lampu terang membuat tukik menjauhi laut dan berjalan ke arah daratan, meningkatkan risiko dehidrasi, predator, dan tertabrak kendaraan Dive SSI.",
+      "Regulasi & Mitigasi: Konservasi mewajibkan penggunaan lampu yang ramah penyu (redup/merah), mematikan lampu di malam hari saat musim bertelur, dan membatasi pembangunan di pesisir Dive SSI."
     ],
     color: "#3b82f6",
     gradient: "from-blue-500/10 to-indigo-500/10",
@@ -265,8 +267,8 @@ export default function AlurBudidayaPanel({ isOpen, onClose }: AlurBudidayaPanel
               onClick={() => setActiveStep(Math.max(0, activeStep - 1))}
               disabled={activeStep === 0}
               className={`flex items-center gap-1 px-3 py-2 rounded-lg text-[11px] sm:text-xs font-medium transition-all ${activeStep === 0
-                  ? "text-white/15 cursor-not-allowed"
-                  : "bg-white/5 hover:bg-white/10 text-white/70 border border-white/10"
+                ? "text-white/15 cursor-not-allowed"
+                : "bg-white/5 hover:bg-white/10 text-white/70 border border-white/10"
                 }`}
             >
               <ChevronLeftIcon className="w-3 h-3" />
@@ -292,8 +294,8 @@ export default function AlurBudidayaPanel({ isOpen, onClose }: AlurBudidayaPanel
               onClick={() => setActiveStep(Math.min(steps.length - 1, activeStep + 1))}
               disabled={activeStep === steps.length - 1}
               className={`flex items-center gap-1 px-3 py-2 rounded-lg text-[11px] sm:text-xs font-medium transition-all ${activeStep === steps.length - 1
-                  ? "text-white/15 cursor-not-allowed"
-                  : "text-white/80 border"
+                ? "text-white/15 cursor-not-allowed"
+                : "text-white/80 border"
                 }`}
               style={
                 activeStep < steps.length - 1
