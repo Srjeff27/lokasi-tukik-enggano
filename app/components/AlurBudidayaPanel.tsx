@@ -75,9 +75,9 @@ const steps = [
       "1 kolam keramba: 5m × 5m",
       "4 sekat per kolam (2.5m × 2.5m)",
       "Jaring 2m, terendam 1.5m",
-      "Kapasitas: 50 tukik",
+      "Kapasitas: 100 tukik",
       "Pemberian pakan 3× sehari",
-      "Monitoring kesehatan rutin",
+      "Monitoring",
       "Dipindahkan ke kolam pembesaran dengan tujuan mempersiapkan penyu sampai usia yang siap untuk dilepaskan",
     ],
     color: "#06b6d4",
@@ -91,9 +91,9 @@ const steps = [
     title: "Pelepasliaran",
     subtitle: "Release to Ocean",
     description:
-      "Setelah tukik mencapai ukuran 15-20 cm dan dinyatakan sehat, mereka dilepasliarkan ke laut.",
+      "Setelah tukik mencapai ukuran 7-12 cm dan dinyatakan sehat, mereka dilepasliarkan ke laut.",
     details: [
-      "Ukuran target: 15-20 cm",
+      "Ukuran target: 7 - 12 cm",
       "Harapan menaikan survival karna sudah siap menghadapi predator",
       "Pelepasan saat senja/malam di pantai desa Meok",
       "Edukasi masyarakat",

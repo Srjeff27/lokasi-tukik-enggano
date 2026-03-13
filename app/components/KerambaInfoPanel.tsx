@@ -184,13 +184,13 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
                 subtitle="Eretmochelys imbricata"
                 sekatNumber={2}
                 colorTheme="green"
-                icon="💚"
+                icon="🐢"
                 description="Penampungan dan pembesaran tukik jenis Penyu Sisik."
                 steps={[
-                  "Dipisah dari lekang untuk mencegah persaingan",
-                  "Pakan utama: rumput laut dan alga",
-                  "Pencatatan ID tiap individu (tagging)",
-                  "Pelepasan liar setelah pembesaran",
+                  "Tukik baru menetas dari bak penetasan",
+                  "Dipantau pertumbuhan & kesehatan harian",
+                  "Diberi pakan",
+                  "Dilepas setelah cukup kuat (±3–6 bulan)",
                 ]}
               />
               <SekatCard
