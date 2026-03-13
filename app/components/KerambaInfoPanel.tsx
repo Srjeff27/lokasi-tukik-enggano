@@ -61,7 +61,7 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
               id="modal-title"
               className="text-2xl md:text-4xl font-extrabold text-white tracking-tight drop-shadow-md mb-2"
             >
-              Peta Lokasi Jaring Pembesaran Tukik di Bacbau
+              Peta Lokasi Jaring Pembesaran Tukik di Bak Blau
             </h2>
             <p className="text-white/60 text-sm md:text-base font-medium">
               Struktur Keramba · Dimensi 5m × 5m · 4 Sekat · Jaring 2m
@@ -139,11 +139,6 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
                     icon="🧵"
                     title="Tali Pengikat"
                     desc="Tali PE/nylon untuk mengikat jaring ke tiang dan menghubungkan sekat satu dengan lainnya."
-                  />
-                  <MaterialItem
-                    icon="🚪"
-                    title="Pintu Sekat"
-                    desc="Tiap sekat memiliki 1 pintu buka-tutup (zipper / tali simpul) untuk memasukkan atau mengeluarkan penyu."
                   />
                 </div>
               </InfoCard>
@@ -238,7 +233,7 @@ export default function KerambaInfoPanel({ isOpen, onClose }: KerambaInfoPanelPr
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
               <FeatureItem icon="🛡️" text="Melindungi tukik dari predator alami (ikan besar, kepiting) di perairan Bak Blau" />
               <FeatureItem icon="📏" text="Memisahkan penyu berdasarkan jenis, ukuran, dan kondisi kesehatan" />
-              <FeatureItem icon="🌊" text="Memanfaatkan air tawar biru Bak Blau yang jernih & bersih sepanjang tahun" />
+              <FeatureItem icon="🌊" text="Memanfaatkan air Payau sepanjang tahun" />
               <FeatureItem icon="🔬" text="Memudahkan pemantauan pertumbuhan dan kondisi kesehatan tiap individu" />
               <FeatureItem icon="🤝" text="Tempat edukasi masyarakat & nelayan tentang pentingnya perlindungan penyu" />
               <FeatureItem icon="♻️" text="Penyelamatan penyu terjerat jaring sebelum dikembalikan ke laut bebas" />

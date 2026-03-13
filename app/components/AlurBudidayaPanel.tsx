@@ -19,12 +19,11 @@ const steps = [
     title: "Penyu Bertelur",
     subtitle: "Nesting Season",
     description:
-      "Penyu betina naik ke pantai Enggano pada malam hari untuk bertelur. Satu sarang dapat berisi 80–120 butir telur. Musim bertelur berlangsung dari bulan Oktober hingga Februari.",
+      "Penyu betina naik ke pantai Enggano pada malam hari untuk bertelur. Satu sarang dapat berisi 80–120 butir telur.",
     details: [
       "Penyu naik ke pantai saat malam hari",
       "Menggali lubang sedalam 50-60 cm",
       "80-120 telur per sarang",
-      "Musim bertelur: Oktober - Februari",
     ],
     color: "#f59e0b",
     gradient: "from-amber-500/10 to-orange-500/10",
@@ -37,10 +36,8 @@ const steps = [
     title: "Pengumpulan & Penetasan",
     subtitle: "Egg Collection & Incubation",
     description:
-      "Tim konservasi mengumpulkan telur dari sarang alami dan memindahkannya ke tempat penetasan buatan (hatchery) berukuran 5m × 8m untuk melindungi dari predator dan pencurian.",
+      "Tim konservasi mengumpulkan telur dari sarang alami dan memindahkannya ke tempat penetasan untuk melindungi dari predator dan pencurian.",
     details: [
-      "Telur dipindahkan ke hatchery buatan",
-      "Area penetasan: 5m × 8m",
       "Suhu inkubasi: 28-32°C",
       "Masa inkubasi: 45-60 hari",
     ],
@@ -81,6 +78,7 @@ const steps = [
       "Kapasitas: 50 tukik",
       "Pemberian pakan 3× sehari",
       "Monitoring kesehatan rutin",
+      "Dipindahkan ke kolam pembesaran dengan tujuan mempersiapkan penyu sampai usia yang siap untuk dilepaskan",
     ],
     color: "#06b6d4",
     gradient: "from-cyan-500/10 to-blue-500/10",
@@ -93,12 +91,28 @@ const steps = [
     title: "Pelepasliaran",
     subtitle: "Release to Ocean",
     description:
-      "Setelah tukik mencapai ukuran 15-20 cm dan dinyatakan sehat, mereka dilepasliarkan ke laut. Dengan program pembesaran ini, survival rate meningkat dari 0.1% menjadi 30-50%.",
+      "Setelah tukik mencapai ukuran 15-20 cm dan dinyatakan sehat, mereka dilepasliarkan ke laut.",
     details: [
       "Ukuran target: 15-20 cm",
-      "Survival rate naik: 30-50%",
-      "Pelepasan saat senja/malam",
+      "Harapan menaikan survival karna sudah siap menghadapi predator",
+      "Pelepasan saat senja/malam di pantai desa Meok",
       "Edukasi masyarakat & ekowisata",
+    ],
+    color: "#3b82f6",
+    gradient: "from-blue-500/10 to-indigo-500/10",
+    borderColor: "border-blue-500/20",
+    duration: "Setelah 3-6 bulan",
+  },
+  {
+    id: 6,
+    icon: "♻️",
+    title: "Penyu Kembali ke pantai untuk bertelur",
+    subtitle: "Nesting Season",
+    description:
+      "Penyu yang telah dilepasliarkan akan kembali ke pantai tempat mereka dilahirkan untuk bertelur. Oleh karena itu, sangat penting untuk menjaga keadaan dan kondisi pantai agar tetap layak untuk bertelur.",
+    details: [
+      "Penyu akan kembali ke pantai tempat mereka bertelur",
+      "Untuk itu sangat diperlukan menjaga keadaan dan kondisi pantai baik untuk bertelur",
     ],
     color: "#3b82f6",
     gradient: "from-blue-500/10 to-indigo-500/10",
